@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&family=Lemon&family=Racing+Sans+One&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    color: ghostwhite;
+    font-family: monospace;
+}
+body{
+    background-color: black;
+}
+
+/*Navbar starts*/
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 4.5vh;
+    padding: 1.5vw;
+    border: 1px solid #14ff00;
+    text-align: center;
+    background-color: black;
+}
+.logo, .title, .pages{
+    display: inline-block;
+}
+.logo img{
+    border: 1px solid #14ff00;
+    height: 2.5vw;
+    width: auto;
+    border-radius: 50%;
+}
+.pages{
+    margin: 2vw;
+    margin-top: 1vh;
+    float: right;
+    text-decoration: none;
+    font-size: large;    
+}
+.logo, .title{
+    float: left;
+    margin-left: 1vh;
+}
+.title{
+    margin-top: 1vh;
+    font-size: large;
+}
+.pages a:hover{
+    padding: 3px 8px 3px 8px;
+    border: 1px solid white;
+    background-color: #14ff00;
+    color: white;
+    transition: 0.4s;
+}
+/*Navbar ends*/
+
+/*Footer starts*/
+h2{
+    font-size: medium;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 97.7vw;
+    height: auto;
+    padding: 1vw;
+    text-align: center;
+    background-color: black;
+    border: 1px solid #14ff00;
+}
+.copyright{
+    float: left;
+    color: white;
+}
+.socials a img{
+    margin-bottom: auto;
+    margin: 1vh;
+    background-color: white;
+    border: 0.05vw solid white;
+    width: auto;
+    height: 3vw;
+    border-radius: 50%;
+}
+.socials{
+    float: right;
+    margin-right: 15px;
+}
+.copyright, .socials{
+    display: inline-flex;   
+}
+/*Footer ends*/
+
+/*Home starts*/
+body{
+    background-color: grey;
+}
+h1, p{
+    color: white;
+}
+.body{
+    display: flex;
+    margin: 10vw;
+    text-align: left;
+}
+.bodyimg img{
+    width: auto;
+    height: 30vw;
+    border: 2px solid #14ff00;
+}
+.bodytext{
+    float: right;
+    margin-left: 5vw;
+    font-size: large;
+    font-family: monospace;
+    font-style: italic;
+}
+/*Home ends*/
+
+/*About Me starts*/
+.abtme{
+    display: flex;
+    margin: 9vw;
+    text-align: left;
+}
+.abtimg img{
+    width: auto;
+    height: 70vw;
+    margin-left: 3vw;
+    border: 2px solid #14ff00;
+}
+.interests{
+    float: right;
+    margin-left: 5vw;
+    font-size: large;
+    font-family: monospace;
+    font-style: italic;
+}
+/*About Me ends*/
+
+/*References starts*/
+.refbody{
+    margin: 10vw;
+    text-align: left;
+}
+.refheading h1{
+    font-size: 2.5vw;
+    font-family: monospace;
+}
+.references{
+    margin-top: 5vw;
+    margin-left: 20vw;
+}
+.references ol li{
+    font-family: monospace;
+    font-size: xx-large;
+    margin: 1vw;
+}
+/*References ends*/
+
+/*Main Content starts*/
+body{
+    background-color: black;
+}
+h1, p{
+    color: white;
+}
+
+.maincontent{
+    display: flex;
+    margin: 7.5vw;
+    text-align: left;
+    flex-direction: column;
+}
+.intro, .discussion, .conclusion{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #14ff00;
+    padding: 10px;
+}
+.introtext{
+    float: left;
+    margin-left: 0.5vw;
+    font-size: medium;
+    font-family: monospace;
+    font-style: italic;
+}
+.introimg img{
+    margin-left: 2vw;
+    width:auto;
+    height: 20vw;
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #14ff00;
+}
+.discussionimg img{
+    width:auto;
+    height: 20vw;
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #14ff00;
+}
+.discussiontext{
+    float: right;
+    margin-left: 1.5vw;
+    font-size: medium;
+    font-family: monospace;
+    font-style: italic;
+}
+.conclusiontext{
+    float: left;
+    margin-right: 0.5vw;
+    font-size: medium;
+    font-family: monospace;
+    font-style: italic;
+}
+table, th{
+    border: 1px solid #14ff00;
+    padding: 1vw;
+    border-spacing: 0px;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+/*Main Content ends*/
+
+/*Study Background starts*/
+.studybackground{
+    display: flex;
+    margin: 8vw;
+    text-align: left;
+}
+.studybg img{
+    width: auto;
+    height: 30vw;
+    border: 2px solid #14ff00;
+}
+.studybgtext{
+    float: right;
+    margin-left: 5vw;
+    font-size: medium;
+    font-family: monospace;
+    font-style: italic;
+}
+/*Study Background ends*/
